@@ -819,3 +819,23 @@ body {
 .blogItem img {
   width: 100%;
 }
+
+.blogBtn {
+  margin-top: 2rem;
+}
+
+.relatedPostItem img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  border: 1px solid white;
+}
+
+nav .menu {
+  display: flex;
+  gap: 1rem;
+}
+
+/* .header logo {
+
+} */

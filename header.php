@@ -13,15 +13,18 @@
     <div class="header py-6 ">
         <div class="container">
             <div class="headerWrapper flex justify-between items-center border-b mb-4">
-                <div class="logo text-3xl font-bold">
-                    The Blog
+            <?php
+                    if ( function_exists( 'the_custom_logo')) {
+                        the_custom_logo();
+                    }
+                    ?>
+                <a href="<?php echo home_url(); ?>">
+                    <div class="logo text-3xl font-bold">
+
                 </div>
+                </a>
                 <nav>
-                    <ul class="flex items-center gap-3">
-                        <li>Home</li>
-                        <li>Services</li>
-                        <li>Contact</li>
-                    </ul>
+            <?php wp_nav_menu(); ?>
                 </nav>
             </div>
         </div>
