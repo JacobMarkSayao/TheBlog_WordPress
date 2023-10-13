@@ -836,6 +836,29 @@ nav .menu {
   gap: 1rem;
 }
 
-/* .header logo {
+.inputGroup input[type="text"],
+input[type="email"],
+textarea {
+  border-radius: 6px;
+  width: 350px;
+  color: black;
+  padding: 5px;
+}
+.inputGroup textarea {
+  color: black;
+  padding: 1rem;
+}
 
-} */
+input[type="text"],
+input[type="email"] {
+  height: 30px;
+}
+
+input[type="submit"] {
+  padding: 10px 30px;
+  background: ;
+}
+
+.inputGroup {
+  margin-bottom: 20px;
+}
